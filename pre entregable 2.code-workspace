@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../zero"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pre entregable 2"
+	}
+}

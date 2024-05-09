@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rajdhani", sans-serif;
+    color: #ffffff;
+  }
+  
+body{background-image: url(assests/fondooo.avif);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;}
+.navegador{color: #000000;}
+  .navbar {
+    background-color: #ffffff;
+  }
+  
+  .navegador {
+    color: #ffffff;
+  }
+  
+  #imagen-logo {
+    width: 60px;
+    height: 60px;
+  }
+  
+  /** body **/
+  h1 {
+    text-align: center;
+  }
+  
+  /** header **/
+  .cabeza {
+    position: relative;
+  }
+  
+  /** nav **/
+  .lista {
+    justify-content: space-between;
+    font-size: 30px;
+  }
+  
+  /** main**/
+  .seccion {
+    font-size: 30px;
+    color: rgb(3, 3, 3);
+  }
+  
+  .card {
+    height: 300px;
+    width: 300px;
+    left: 15%;
+    transition: all 3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .container {
+    text-align: center;
+    justify-content: center;
+  }
+  .container img {
+    width: 300px;
+    height: 300px;
+    transition: all 2s;
+  }
+  
+  .card-body {
+    height: 160px;
+    text-align: center;
+  }
+  
+  .card-text {
+    color: #000000;
+  }
+  
+  /** aside**/
+  /** footer**/
+  .pie {
+    color: #000000;
+  }
+  
+  .carrusel {
+    transition: all 2s;
+  }
+  
+  .carrusel:hover {
+    transform: scale(0.8, 0.8);
+  }
+  
+  footer {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .comentario {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /** pagina contacto **/
+  /** pagina faq **/
+  /**pagina productos  **/
+  /**pagina servicios  **/
+ 
+
+  
+  /*# sourceMappingURL=styles.css.map */
+  
