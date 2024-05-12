@@ -1,0 +1,42 @@
+
+body {
+    background-image: url(../assests/fondo\ prueba.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+.seccion {
+    font-size: 30px;
+    color: rgb(3, 3, 3);
+  }
+  
+  .card {
+    height: 300px;
+    width: 300px;
+    left: 15%;
+    transition: all 3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .container {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .container img {
+    width: 300px;
+    height: 300px;
+    transition: all 2s;
+  }
+  
+  .card-body {
+    height: 160px;
+    text-align: center;
+  }
+  .card-text {
+    color: #000000;
+  }

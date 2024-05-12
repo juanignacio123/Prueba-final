@@ -1,0 +1,31 @@
+
+.navegador {
+    color: #000000;
+  }
+  
+ 
+  
+  #imagen-logo {
+    width: 60px;
+    height: 60px;
+  }
+  
+  /** body **/
+  h1 {
+    text-align: center;
+  }
+  
+  /** header **/
+  .cabeza {
+    position: relative;
+  }
+  
+  /** nav **/
+  .lista {
+    justify-content: space-between;
+    font-size: 30px;
+  }
+  
+  #imagen-logo {
+    border-radius: 10%;
+  }

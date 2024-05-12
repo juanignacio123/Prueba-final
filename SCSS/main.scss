@@ -1,0 +1,12 @@
+
+//principal
+@import './reset/reset';
+@import '_principal';
+@import './reset/grid.scss';
+@import './reset/mixin.scss';
+@import '_meadiaq';
+//encabezado
+@import '_header.scss';
+
+//footer
+@import '_footer';
