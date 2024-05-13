@@ -6,11 +6,12 @@
 }
 
 body {
-  background-image: url(../assests/fondo\ prueba.avif);
+  background-image: url(../assests/imagen\ fondoo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-color: #1e1e47;
 }
 
 .seccion {
@@ -49,6 +50,29 @@ body {
   color: #000000;
 }
 
+.grid-conteiner {
+  display: grid;
+  grid-template-columns: 3, 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: "cabeza cabeza " "main main" "aside aside" "footer footer ";
+}
+
+header {
+  grid-area: cabeza;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+}
+
 .navegador {
   color: #000000;
 }
@@ -58,7 +82,6 @@ body {
   height: 60px;
 }
 
-/** body **/
 h1 {
   text-align: center;
 }
@@ -75,12 +98,120 @@ h1 {
 }
 
 #imagen-logo {
-  border-radius: 10%;
+  border-radius: 35%;
+}
+
+.bi .bi-list-ul {
+  color: antiquewhite;
+  width: 200px;
+  height: 200px;
+}
+
+.offcanvas {
+  background-image: url(../assests/boton-texto-estilo-letreros-neon-videojuegos-vectoriales_567556-62.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.carrusel {
+  transition: all 2s;
+}
+
+.carrusel:hover {
+  transform: scale(0.8, 0.8);
 }
 
 footer {
   text-align: center;
   justify-content: center;
+}
+
+.comentario {
+  text-align: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .grid-conteiner {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "cabeza cabeza " "main main" "main aside" "mainr footer ";
+  }
+  header {
+    grid-area: cabeza;
+  }
+  main {
+    grid-area: main;
+  }
+  aside {
+    grid-area: aside;
+  }
+  footer {
+    grid-area: footer;
+  }
+}
+@media (max-width: 768px) {
+  .grid-conteiner {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "cabeza cabeza " "main main" "aside aside" "footer footer ";
+  }
+  header {
+    grid-area: cabeza;
+  }
+  main {
+    grid-area: main;
+  }
+  aside {
+    grid-area: aside;
+  }
+  footer {
+    grid-area: footer;
+  }
+}
+@media (min-width: 769) and (max-width: 1024px) {
+  .grid-conteiner {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "cabeza cabeza " "main main" "aside aside" "footer footer ";
+  }
+  header {
+    grid-area: cabeza;
+  }
+  main {
+    grid-area: main;
+  }
+  aside {
+    grid-area: aside;
+  }
+  footer {
+    grid-area: footer;
+  }
+}
+@media (min-width: 1025) and (max-width: 1200px) {
+  .grid-conteiner {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "cabeza cabeza " "main main" "main aside" "main footer ";
+  }
+  header {
+    grid-area: cabeza;
+  }
+  main {
+    grid-area: main;
+  }
+  aside {
+    grid-area: aside;
+  }
+  footer {
+    grid-area: footer;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

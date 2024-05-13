@@ -1,31 +1,41 @@
 
 .navegador {
-    color: #000000;
-  }
-  
- 
-  
-  #imagen-logo {
-    width: 60px;
-    height: 60px;
-  }
-  
-  /** body **/
-  h1 {
-    text-align: center;
-  }
-  
-  /** header **/
-  .cabeza {
-    position: relative;
-  }
-  
-  /** nav **/
-  .lista {
-    justify-content: space-between;
-    font-size: 30px;
-  }
-  
-  #imagen-logo {
-    border-radius: 10%;
-  }
+  color: #000000;
+}
+
+
+
+#imagen-logo {
+  width: 60px;
+  height: 60px;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+/** header **/
+.cabeza {
+  position: relative;
+}
+
+/** nav **/
+.lista {
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+#imagen-logo {
+  border-radius: 35%;
+}
+
+.bi .bi-list-ul {color: antiquewhite;
+width: 200px;
+height: 200px;
+}
+.offcanvas{background-image: url(../assests/boton-texto-estilo-letreros-neon-videojuegos-vectoriales_567556-62.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;}

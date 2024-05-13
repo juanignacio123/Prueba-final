@@ -1,11 +1,13 @@
 
 body {
-    background-image: url(../assests/fondo\ prueba.avif);
+    background-image: url(../assests/imagen\ fondoo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-color: #1e1e47;
   }
+
 .seccion {
     font-size: 30px;
     color: rgb(3, 3, 3);
@@ -15,7 +17,7 @@ body {
     height: 300px;
     width: 300px;
     left: 15%;
-    transition: all 3s;
+    transition: all 3s; 
   }
   
   .card:hover {

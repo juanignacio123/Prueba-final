@@ -4,9 +4,12 @@
 @import '_principal';
 @import './reset/grid.scss';
 @import './reset/mixin.scss';
-@import '_meadiaq';
+
 //encabezado
 @import '_header.scss';
-
+//aside
+@import '_aside';
 //footer
 @import '_footer';
+@import './reset/colors.scss';
+@import '_mediaq';
