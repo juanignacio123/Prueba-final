@@ -4,10 +4,12 @@
 }
 
 
+//logo
 
 #imagen-logo {
   width: 60px;
-  height: 60px;
+  height: 60px; 
+   border-radius: 10%;
 }
 
 
@@ -26,9 +28,8 @@ h1 {
   font-size: 30px;
 }
 
-#imagen-logo {
-  border-radius: 10%;
-}
+
+
 
 
 .offcanvas{background-image: url(../assests/boton-texto-estilo-letreros-neon-videojuegos-vectoriales_567556-62.jpg);
