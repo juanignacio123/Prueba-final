@@ -1,3 +1,26 @@
+.grid-conteiner {
+  display: grid;
+  grid-template-columns: 3, 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: "cabeza cabeza " "main main" "aside aside" "footer footer ";
+}
+
+header {
+  grid-area: cabeza;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,8 +43,8 @@ body {
 }
 
 .card {
-  height: 300px;
   width: 300px;
+  height: 300px;
   left: 15%;
   transition: all 3s;
 }
@@ -50,29 +73,6 @@ body {
   color: #000000;
 }
 
-.grid-conteiner {
-  display: grid;
-  grid-template-columns: 3, 1fr;
-  grid-template-rows: auto auto auto auto;
-  grid-template-areas: "cabeza cabeza " "main main" "aside aside" "footer footer ";
-}
-
-header {
-  grid-area: cabeza;
-}
-
-main {
-  grid-area: main;
-}
-
-aside {
-  grid-area: aside;
-}
-
-footer {
-  grid-area: footer;
-}
-
 .navegador {
   color: #000000;
 }
@@ -98,13 +98,7 @@ h1 {
 }
 
 #imagen-logo {
-  border-radius: 35%;
-}
-
-.bi .bi-list-ul {
-  color: antiquewhite;
-  width: 200px;
-  height: 200px;
+  border-radius: 10%;
 }
 
 .offcanvas {
@@ -117,10 +111,16 @@ h1 {
 
 .carrusel {
   transition: all 2s;
+  transform: scale(0.8, 0.8);
+}
+
+.carousel-item img {
+  width: 20%;
+  height: 20%;
 }
 
 .carrusel:hover {
-  transform: scale(0.8, 0.8);
+  transform: scale(0.6, 0.6);
 }
 
 footer {
@@ -212,6 +212,19 @@ footer {
   footer {
     grid-area: footer;
   }
+}
+.lista-contactos {
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.imagen-contacto img {
+  width: 300px;
+  height: 300px;
 }
 
 /*# sourceMappingURL=main.css.map */
