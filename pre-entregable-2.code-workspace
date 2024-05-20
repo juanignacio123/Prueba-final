@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../tarea/proyecto/pre-entregable-2"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "proyecto"
+	}
+}
