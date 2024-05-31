@@ -40,3 +40,6 @@ body {
   .card-text {
     color: #000000;
   }
+  .card-img-top{ @include sizes(300px,300px );
+    transition: all 2s;}
+    

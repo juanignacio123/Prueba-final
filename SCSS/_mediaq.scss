@@ -1,66 +1,20 @@
-//mobile
-@media (max-width: 600px) { .grid-conteiner{display:grid;
-  grid-template-columns:(3,1fr) ;
-  grid-template-rows: auto auto auto auto;
-grid-template-areas: 'cabeza cabeza '
-                   'main main'
-                    'main aside'
-                    'mainr footer ' ;}
-header{grid-area:cabeza;}
-main{grid-area:main ;}
-aside{grid-area:aside;}
-footer{grid-area:footer;}
+// Source mixins
 
-  
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+@include media-breakpoint-up(sm) {  }
+@include media-breakpoint-up(md) {background-image: url(../assests/Gaming-logo-template-on-transparent-background-PNG.png); }
+@include media-breakpoint-up(lg) {  }
+@include media-breakpoint-up(xl) {  }
+@include media-breakpoint-up(xxl) {  }
+
+// Usage
+
+// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
+.custom-class {
+  display: none;
 }
-
-  //tablets
-@media (max-width:768px){.grid-conteiner{display:grid;
-  grid-template-columns:(3,1fr) ;
-  grid-template-rows: auto auto auto auto;
-grid-template-areas: 'cabeza cabeza '
-                   'main main'
-                    'aside aside'
-                    'footer footer ' ;}
-header{grid-area:cabeza;}
-main{grid-area:main ;}
-aside{grid-area:aside;}
-footer{grid-area:footer;}}
-//laptops
-@media (min-width:769) and (max-width:1024px){.grid-conteiner{display:grid;
-  grid-template-columns:(3,1fr) ;
-  grid-template-rows: auto auto auto auto;
-grid-template-areas: 'cabeza cabeza '
-                   'main main'
-                    'aside aside'
-                    'footer footer ' ;}
-header{grid-area:cabeza;}
-main{grid-area:main ;}
-aside{grid-area:aside;}
-footer{grid-area:footer;}}
-//computadoras
-@media (min-width:1025) and (max-width:1200px){.grid-conteiner{display:grid;
-  grid-template-columns:(3,1fr) ;
-  grid-template-rows: auto auto auto auto;
-grid-template-areas: 'cabeza cabeza '
-                   'main main'
-                    'main aside'
-                    'main footer ' ;}
-header{grid-area:cabeza;}
-main{grid-area:main ;}
-aside{grid-area:aside;}
-footer{grid-area:footer;}}
- 
-//pantallas grandes tv
-@media (max-width:1201px){.grid-conteiner{display:grid;
-  grid-template-columns:(3,1fr) ;
-  grid-template-rows: auto auto auto auto;
-grid-template-areas: 'cabeza cabeza '
-                   'main main'
-                    'main aside'
-                    'main footer ' ;}
-header{grid-area:cabeza;}
-main{grid-area:main ;}
-aside{grid-area:aside;}
-footer{grid-area:footer;}}
-
+@include media-breakpoint-up(sm) {
+  .custom-class {
+    display: block;
+  }
+}
